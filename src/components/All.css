@@ -1,0 +1,566 @@
+.navbar{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 0px;
+    
+    border-bottom: 2px solid black ;
+    
+    
+  
+  }
+  .navbar li{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  
+  }
+  /* main */
+  .main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      /* background-color: black; */
+  }
+  .main img{
+      border-radius: 150px;
+      margin-bottom: 0px;
+      /* height:'20px';
+       width:'20px'; */
+  }
+  .main h1{
+      text-align: center;
+      font-weight: 800;
+      font-size: 30px;
+      margin-top: 5px;
+      color: black;
+  }
+.main input{
+    margin-top: 20px;
+    height: 40px;
+    width: 70px;
+    background-color: blue;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+  /* home.js */
+  .top{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 50px;
+      margin-top: 30vh;
+  }
+  .top h1{
+      text-transform: capitalize;
+      font-size: 30px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 50px;
+  }
+  @media (max-width:800px) {
+      .top{
+          margin-top: 100px;
+      }
+      
+  }
+  .top p{
+      text-align: center;
+  }
+
+  .intro{
+      background-color: black;
+      padding-top: 20px;
+      margin-top: 15px;
+      padding-bottom: 30px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      margin-left: 2px;
+      margin-right: 2px;
+      padding-bottom: 300px;
+      /* margin-bottom: 100px; */
+  }
+ .intro input{
+     margin-top: 30px;
+     height: 50px;
+     width: 100px;
+     border: 1px solid grey;
+     border-radius: 10px;
+     background-color: white;
+     color: blue;
+     font-weight: 600;
+     font-size: 16px;
+     border: 3px solid grey;
+     
+     
+ }
+ .intro input:hover{
+     
+     
+     border: 4px solid orange;
+ }
+  .intro h2{
+      text-transform: capitalize;
+      font-size: 25px;
+      font-weight: 700;
+      color: gold;
+      text-align: center;
+  }
+  .intro p{
+      font-size: 20px;
+      font-weight: 400;
+      word-spacing: 1px;
+      color: white;
+      margin-right: 20%;
+      margin-left: 20%;
+      line-height: 30px;
+  }
+  .intro2{
+      margin-left: 30px;
+      margin-right: 30px;
+      border: 1px solid grey;
+      display: flex;
+      flex-direction: row;
+      
+      align-items: center;
+      border-radius: 25px;
+      margin-top: -150px;
+      margin-bottom: 20px;
+      background-color: white;
+  }
+
+  .intro2 div{
+      width: 33vw;
+      height: 50vh;
+      display: flex;
+      /* justify-content: center; */
+     padding-top: 15px;
+  }
+  .intro2-div1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  .intro2-div1 h2{
+      font-size: 25px;
+      font-weight: 600;
+  }
+  
+.intro2-div2{
+    border-left: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.intro2-div2 h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.intro2-div2 p{
+    align-items: center;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#p1 {
+    color: blue;
+    margin-top: 55px;
+}
+#p2 {
+    color: blue;
+    margin-top: 55px;
+}
+#p3 {
+    color: blue;
+    margin-top: 55px;
+}
+.intro2-div3{
+    border-left: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.intro2-div3 h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+@media (max-width:800px) {
+    .intro{
+        padding-bottom: 0px;
+    }
+    .intro2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px 5px 10px 5px;
+        border: none;
+        margin-top: 0px;
+    }
+    .intro2-div2{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .intro2-div3{
+        border: none;
+    }
+    .intro2 div{
+        
+       width: 80vw;
+       margin-left: 10vw;
+       margin-right: 10vw;
+        /* justify-content: center; */
+       padding-top: 0px;
+       margin-top: 10px;
+        border: 2px solid grey;
+        height: 35vh;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .intro2 div:hover{
+        border: 4px solid orange;
+    }
+    .intro input{
+        margin-bottom: 30px;
+    }
+}
+/* work  */
+#email{
+    color: blue;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 20px;
+}
+.work{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.work h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.work p{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 200;
+    justify-content: center;
+}
+@media (max-width:800px) {
+    .work p{
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+    
+}
+.workbox{
+    margin-left: 10vw;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+
+.workbox div{
+    height: 30vh;
+    width: 25vw;
+    
+    margin-left: 5px;
+    margin-right: 12px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project1{
+    border: 1px solid black;
+}
+.project1:hover{
+    border: 4px solid orange;
+
+}
+
+.project1 h3{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+#interneticon{
+    margin-bottom: -10px;
+    margin-right: 5px;
+}
+.project1 p{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+    border: 2px solid blue ;
+    border-radius: 20px;
+   
+}
+.proj1{
+    display: flex;
+    flex-direction: column;
+}
+#projh1{
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#wp2{
+    background-image: url('./images/bot.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#wp1{
+    background-image: url('./images/website.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width:800px) {
+    .workbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .workbox div{
+        height: 30vh;
+        width: 80vw;
+        /* margin-left: 10vw;
+        margin-right: 10vw; */
+        margin: 20px 10vw 30px 10vw;
+    }
+    .workbox{
+        margin: 0px;
+    }
+    #projh1{
+        margin-top: -20px;
+        margin-bottom: 10px;
+    }
+    .proj1{
+        margin-bottom: 50px;
+    }
+    
+}
+/* //contact us */
+.cont{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.cont h1{
+    color: grey;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    /* margin-top: 100px; */
+    margin-bottom: 30px;
+    
+
+}
+#contactpara{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    /* margin-bottom: 50px; */
+    
+}
+.cont-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.contact {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 50vw;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 20px;
+    /* margin-top: -150px; */
+    
+    
+    
+    
+}
+#contacth2{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+@media (maxwidth:800px) {
+    #contacth2{
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+#send{
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 70px;
+    border: 2px solid grey;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+#send:hover{
+    border: 4px solid orange;
+    
+}
+
+.contact h2{
+    text-transform: capitalize;
+    color: black;
+    font-size:50px;
+    font-weight: 600;
+}
+.contact input{
+    width:40vw;
+    height:30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    padding-left: 4px;
+
+}
+#cont-mess{
+    height: 30vh;
+    width: 40vw;
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 5px;
+}
+.contouter{
+    background-color: black;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+.mailid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#mailidicon{
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+.mailid p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+@media (max-width:800px) {
+    .contact{
+        width: 80vw;
+        padding-bottom: 20px;
+    }
+    .contact input{
+        width: 70vw;
+        height: 40px;
+        margin: 10px 10vw 0px 10vw;
+        padding-left: 5px;
+    }
+    #cont-mess{
+        width: 70vw;
+        height: 100px;
+        margin-top: 15px;
+    }
+    #mailidicon{
+        width: 30px;
+        height: 30px;
+        color: white;
+
+    }
+    .mailid p{
+        font-size: 16px;
+    font-weight: 400;
+    }
+}
+
+
+
+/* about */
+.about{
+    margin-top: 20px;
+}
+.about h1{
+    color: white; 
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.abticons{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#icon{
+    margin-right: 15px;
+    margin-bottom: 40px;
+    color:white;
+    width: 40px;
+    height: 40px;
+
+}
+#icon:hover{
+    color: gold;
+}
+#endp{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-bottom: 30px; */
+    margin-top: 50px;
+    background-color: black;
+    padding-bottom: 30px;
+}
+#endp:hover{
+    color: gold;
+}
