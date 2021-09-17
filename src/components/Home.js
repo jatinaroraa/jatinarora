@@ -31,7 +31,7 @@ const Home = ()=>{
                 I’m a Software Development Engineer. I enjoy creating, designing, and experimenting with things. I’ve also been developing some interesting and meaningful projects.
                 I’m always interested in becoming a better Engineer, Contributor, Team member, Human and in meeting interesting people.
                 </p>
-               <a href='https://drive.google.com/file/d/1-2RGur22XOH4rXCwGj4lBih1rMDSdG_-/view?usp=drivesdk' target='_blank' > <input type='button' value='Resume' /></a>
+               <a href='https://drive.google.com/file/d/1t-GtPSYZ1X4kUdFRcN3QIlL_62RwhdC5/view?usp=sharing' target='_blank' > <input type='button' value='Resume' /></a>
             </div>
             <div className='intro2'>
                 <div className='intro2-div1'> <BiCodeBlock color='black' fontSize='70' fontWeight='400'/> 
